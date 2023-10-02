@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+  <title>Loja de álbuns</title>
+  
+  <script type="js/login.js"> </script>
+</head>
+
+<body style="z-index: 999; background: rgb(245, 211, 228);">
+
+ <!--Navbar-->
+ <nav class="navbar col-12  navbar-expand-lg">
+  <div class="container-fluid col-11 m-auto">
+    <a class="navbar-brand" href="index.html"> 
+    <img src="img/imglogo1.png" width="100" height="100" alt=""></a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html" style='font-size:25px'> <p><i> CADASTRO </i></p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html" style='font-size: 25px'> <p><i> LOGIN </i></p></a>
+        </li>
+        <p><i> <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style='font-size:25px'>
+            PRODUTOS
+          </a><ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="bts.html" style='font-size:15px'> BTS </a></li>
+            <li><a class="dropdown-item" href="twice.html" style='font-size:15px'> Twice </a></li>
+            <li><a class="dropdown-item" href="straykids.html" style='font-size:15px'> Stray Kids</a></li>
+            <li><a class="dropdown-item" href="seventeen.html" > Seventeen </a></li>
+          </ul>
+        </p></i></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+
+  <div class='container' style="background: #dbb4ad; border-radius: 16px;">
+    <form class="row g-3">
+
+    
+    
+    <legend> Dados para login </legend>
+    
+    <label for="email"> E-mail </label>
+    <input type="text" id="loginEmail" name="email" required autofocus
+    placeholder="nome@provedor.com" title="Informe o email de cadastro"/>
+    
+    <label for="senha"> Senha </label>
+    <input type="password" id="loginSenha" name="senha" required autofocus
+    placeholder="Senha" title="Senha de cadastro" maxlength="11"/>
+    
+    
+    <input type="submit" style="background: rgb(235, 231, 233); margin-bottom: 15px;" value="Login" id="login" onclick="validaLogin(event)" class="botao"/>
+    <input type="reset" style="background: rgb(235, 231, 233); margin-bottom: 25px;" value="Limpar" id="limpar" class="botao"/>
+       
+    </form>
+      </div>
+  </div>
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+

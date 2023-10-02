@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&family=Young+Serif&display=swap');
+
+/* Formatação do formulário de cadastro e login */
+.container{
+    background: #dbb4ad;
+    border-radius: 16px;
+    font-family: 'Gabarito', sans-serif;
+
+}
+
+/* Formatação do navbar */
+.navbar{
+    z-index: 999;
+    background: rgb(224, 180, 190);
+    font-family: 'Inter';
+}
+
+.card {
+    min-height: 250px !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imgcard1 {
+    min-height: 250px;
+}
+
+.imgcard2 {
+    min-height: 250px;
+}
+
+.imgcardB1 {
+    min-height: 250px;
+}
+
+.imgcardB2 {
+    min-height: 250px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+
+.garamond {
+    font-style: garamond;
+}
+
+
+.imglogo {
+    min-height: 250px;
+}
+
+/* Estilos para a tabela "Listar Cadastro" */
+.listar-cadastro-container {
+    background-color: #dbb4ad;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 5px auto; /* Centraliza o container */
+    
+}
+
+.listar-cadastro-container h2 {
+    text-align: center;
+    margin-bottom: 1px;
+    
+}
+
+.listar-cadastro-table {
+    width: 100%; /* Faz com que a tabela ocupe toda a largura do container */
+    border-collapse: collapse;
+    
+}
+
+.listar-cadastro-table thead {
+    background-color: #f5f5f5;
+    
+}
+
+.listar-cadastro-table th, .listar-cadastro-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.listar-cadastro-table tr:hover {
+    background-color: #f0e0e0;
+    
+}
+
+/* Estilização da tabela "Listar Cadastro" */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(224, 180, 190);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe3dc;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/*Responsividade para tablets*/
+@media screen and (max-width: 768px)
+{
+    section, inside{
+    width:100%;
+    padding:0;
+}}
+
+/*Responsividade para celulares*/
+@media screen and (max-width: 720px)
+{
+    section, inside{
+    width:100%;
+    padding:0;
+}}
